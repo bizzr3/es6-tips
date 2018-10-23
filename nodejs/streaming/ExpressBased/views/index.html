@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Media Player</title>
+
+    <style>
+        body,
+        html {
+            background-color: #2a2a2a
+        }
+
+        .__container {
+            margin:200px auto;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="__container">
+        <audio controls id="player">
+            <source src="/stream" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+    </div>
+</body>
+
+</html>
